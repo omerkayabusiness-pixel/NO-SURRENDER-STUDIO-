@@ -1,0 +1,21 @@
+import CustomCursor from '@/components/landing/CustomCursor';
+import Navbar from '@/components/landing/Navbar';
+import HeroSection from '@/components/landing/HeroSection';
+import FeaturesSection from '@/components/landing/FeaturesSection';
+import GameLoopSection from '@/components/landing/GameLoopSection';
+import QuizSection from '@/components/landing/QuizSection';
+import Footer from '@/components/landing/Footer';
+
+export default function Home() {
+  return (
+    <div style={{ backgroundColor: '#05070A', minHeight: '100vh', overflowX: 'hidden' }}>
+      <CustomCursor />
+      <Navbar />
+      <HeroSection />
+      <FeaturesSection />
+      <GameLoopSection />
+      <QuizSection />
+      <Footer />
+    </div>
+  );
+}
